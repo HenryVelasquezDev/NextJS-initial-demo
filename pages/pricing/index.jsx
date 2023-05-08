@@ -1,20 +1,19 @@
-import Link from 'next/link';
 import { MainLayout } from '@/components/layouts/MainLayout';
+import Link from 'next/link';
 
-export default function HomePage() {
+export default function PricingPage() {
   return (
     <MainLayout>
-      <h1>Home page</h1>
+      <h1>Pricing  page</h1>
 
       <h1 className={'title'}>
-        {/* Ir a <a href='/about'>About</a> */}
-        Ir a <Link href="/about">About</Link>
+        Ir a <Link href="/">Home</Link>
       </h1>
 
       <div className={'description'}>
         <p>
           Get started by editing&nbsp;
-          <code className={'code'}>pages/index.jsx</code>
+          <code className={'code'}>pages/pricing.jsx</code>
         </p>
       </div>
     </MainLayout>
